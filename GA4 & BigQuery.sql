@@ -14,6 +14,7 @@ SELECT
     geo.sub_continent,
     geo.country, 
     geo.city,
+    --a comment
     device.category,
     device.mobile_brand_name,	
     device.mobile_model_name,
