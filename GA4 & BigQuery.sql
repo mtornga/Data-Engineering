@@ -21,6 +21,7 @@ SELECT
     device.mobile_model_name,
     --This goes on Develop branch
           --this is a feature of commentcop development
+               --wait one more indent
     device.operating_system,
     (SELECT value.string_value FROM UNNEST(event_params) WHERE key = "page_location") AS page_location,
     (SELECT value.string_value FROM UNNEST(event_params) WHERE key = "page_title") AS page_title, 
