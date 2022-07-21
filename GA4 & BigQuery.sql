@@ -28,7 +28,8 @@ SELECT
     user_first_touch_timestamp,
 
     --new develop branch
-     --new feature
+     --new feature 
+          --please clap
     10 AS dix,
 FROM 
     `bigquery-public-data.ga4_obfuscated_sample_ecommerce.events_*`
