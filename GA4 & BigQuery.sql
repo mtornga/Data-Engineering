@@ -15,6 +15,7 @@ SELECT
     geo.country, 
     geo.city,
     --a comment
+    --a second comment!
     device.category,
     device.mobile_brand_name,	
     device.mobile_model_name,
