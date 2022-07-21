@@ -16,6 +16,7 @@ SELECT
     geo.city,
     --a comment
     device.category,
+    --hope this goes on main
     device.mobile_brand_name,	
     device.mobile_model_name,
     device.operating_system,
