@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - 'main'
-      - 'feature/**'
+      - 'feature*'
 jobs:
   dump_contexts_to_log:
     runs-on: ubuntu-latest
