@@ -23,6 +23,7 @@ SELECT
     (SELECT value.string_value FROM UNNEST(event_params) WHERE key = "page_location") AS page_location,
     (SELECT value.string_value FROM UNNEST(event_params) WHERE key = "page_title") AS page_title, 
     user_first_touch_timestamp,
+    --Please claP!!!
     10 AS dix,
 FROM 
     `bigquery-public-data.ga4_obfuscated_sample_ecommerce.events_*`
