@@ -25,6 +25,7 @@ SELECT
     user_first_touch_timestamp,
     10 AS dix,
     ---ziggy ziggy za
+    --ffxxxx
 FROM 
     `bigquery-public-data.ga4_obfuscated_sample_ecommerce.events_*`
 
